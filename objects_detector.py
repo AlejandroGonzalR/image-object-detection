@@ -16,7 +16,7 @@ def main(argv):
     try:
         opts, args = getopt.getopt(argv, 'i:', ["input-file"])
     except getopt.GetoptError:
-        print('objects_detector.py -i <input-file>')
+        print('python3 objects_detector.py -i <input-file>')
         sys.exit(2)
 
     for opt, arg in opts:
