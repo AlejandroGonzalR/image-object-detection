@@ -1,5 +1,8 @@
 # Heavy duty vehicles detection based image recognition
 
+<img src="https://user-images.githubusercontent.com/40376561/94055186-38575c00-fda2-11ea-89e4-ee634c32b99c.png" width="1000">
+&nbsp
+
 Example of image-based pattern recognition by implementing a pre-trained YOLOv3 model with COCO and OpenCV.
 
 ## Requirements
