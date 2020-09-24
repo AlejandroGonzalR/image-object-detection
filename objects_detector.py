@@ -8,7 +8,7 @@ class_ids = []
 confidences = []
 boxes = []
 min_confidence = 0.5
-target_name = ("truck", "bus")
+target_name = "truck"
 
 
 def main(argv):
@@ -89,7 +89,7 @@ def show_detected_objects(image, classes):
     font = cv2.FONT_HERSHEY_COMPLEX_SMALL
     for i in range(len(boxes)):
         if i in indexes:
-            if str(classes[class_ids[i]]) in target_name:
+            if str(classes[class_ids[i]]) == target_name:
                 target_label = "{0} ({1} %)".format("Carga pesada", round(confidences[i] * 100, 2))
 
                 x, y, w, h = boxes[i]
