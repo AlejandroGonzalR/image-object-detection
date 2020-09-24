@@ -3,11 +3,11 @@
 <img src="https://user-images.githubusercontent.com/40376561/94055186-38575c00-fda2-11ea-89e4-ee634c32b99c.png" width="1000">
 &nbsp
 
-Example of image-based pattern recognition by implementing a pre-trained YOLOv3 model with COCO and OpenCV.
+Example of image-based pattern recognition by implementing a pre-trained YOLOv3 model with COCO and OpenCV, filtering every known object to heavy duty vehicles for precise implementation objects.
 
 ## Requirements
 
-Python 3.8 or later with all [requirements.txt](https://github.com/AlejandroGonzalR/image-object-detection/blob/master/requirements.txt) dependencies installed. To install run:
+Python 3.7 or later with all [requirements.txt](https://github.com/AlejandroGonzalR/image-object-detection/blob/master/requirements.txt) dependencies installed. To install run:
 
 ```bash
 $ pip install -r requirements.txt
